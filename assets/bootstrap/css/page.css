@@ -93,8 +93,21 @@ div table tbody tr td{
     }
 }
 
+.contact-container{
+    margin: 20px 0;
+}
+
+.rm{
+    margin-right: 15px;
+}
+
+.lrm{
+    margin: 0 15px;
+}
+
 .contact-table {
     display: flex;
+    margin: 5px 0;
 }
 
 .hover-lg{
