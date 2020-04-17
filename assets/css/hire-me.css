@@ -5,13 +5,16 @@
 .hire-me {
     background: url('../img/Team-Work.jpg') no-repeat center center fixed;
     background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
-.hire-me-container {
+.hire-me-form {
     background-color: rgba(244, 244, 244, 0.7);
     margin: auto;
     border-radius: 25px;
-    padding: 50px;
+    padding: 40px 30px;
+
 }
 
 .form-submit {

@@ -15,7 +15,7 @@
     <script src="https://kit.fontawesome.com/5cbd2f0739.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <link rel="stylesheet" href="assets/css/load.css">
-    <link rel="stylesheet" href="assets/css/hire-me.css">
+    <link rel="stylesheet" href="assets/css/hire-me.css?v=0.0.1">
     <script language="JavaScript" type="application/javascript" src="assets/js/page.js?v=0.0.4"></script>
 </head>
 <body>
@@ -48,29 +48,31 @@
 </nav>
 <section class="hire-me">
     <div class="container">
-        <form class="hire-me-container col-xl-7 col-sm-11">
-            <div class="form-group">
-                <label for="offer">Offer Type: </label>
-                <select id="offer" class="form-control">
-                    <option value="Full">Full Time Offer</option>
-                    <option value="Full">Part Time Offer</option>
-                    <option value="Full">Project</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="name">Name:</label>
-                <input id="name" class="form-control" type="text">
-            </div>
-            <div class="form-group">
-                <label for="company-name">Company Name:</label>
-                <input id="company-name" class="form-control" type="text" required>
-            </div>
-            <div class="form-group">
-                <label for="message">Message:</label>
-                <textarea id="message" class="form-control" required></textarea>
-            </div>
-            <div class="form-submit">
-                <input type="submit" class="btn btn-primary" value="Submit Offer"/>
+        <form class="hire-me-form col-xl-7 col-sm-11">
+            <div class="container">
+                <div class="form-group">
+                    <label for="offer">Offer Type: </label>
+                    <select id="offer" class="form-control">
+                        <option value="Full">Full Time Offer</option>
+                        <option value="Full">Part Time Offer</option>
+                        <option value="Full">Project</option>
+                    </select>
+                </div>
+                <div class="form-group" col-lg-5>
+                    <label for="name">Name:</label>
+                    <input id="name" class="form-control" type="text">
+                </div>
+                <div class="form-group" col-lg-5>
+                    <label for="company-name">Company Name:</label>
+                    <input id="company-name" class="form-control" type="text" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" class="form-control" required></textarea>
+                </div>
+                <div class="form-submit">
+                    <input type="submit" class="btn btn-primary" value="Submit Offer"/>
+                </div>
             </div>
         </form>
     </div>
