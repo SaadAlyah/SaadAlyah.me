@@ -1,3 +1,23 @@
 .load-screen {
     padding-top: 10%;
 }
+
+.hire-me {
+    background: url('../img/Team-Work.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.hire-me-container {
+    background-color: rgba(244, 244, 244, 0.7);
+    margin: auto;
+    border-radius: 25px;
+    padding: 50px;
+}
+
+.form-submit {
+    text-align: center;
+}
+
+.form-submit input {
+    padding: 15px;
+}
