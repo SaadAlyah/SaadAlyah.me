@@ -1,4 +1,4 @@
 $(window).on('load',function () {
-    $(".load-screen").fadeOut(1000);
+    $(".load-screen").fadeOut(500);
     $("body").css("overflow", "auto");
 });
